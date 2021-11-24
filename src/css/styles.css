@@ -18,3 +18,36 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  display: flex;
+}
+
+.text {
+  font-weight: normal;
+}
+
+.country-list {
+  background-color: darkgrey;
+}
+
+.country-list__item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flag {
+  margin-right: 30px;
+}
